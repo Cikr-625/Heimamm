@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 750px;
+  min-width: 320px;
+  margin: 0 auto;
+  background-color: #f2f4f7;
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 37.5px !important;
+  }
+}
+.top_content {
+  background-color: white;
+  padding-bottom: 1.1467rem;
+}
+.top_content .header {
+  height: 3.44rem;
+  box-sizing: border-box;
+  text-align: center;
+  border-bottom: 1px solid #f2f4f7;
+  padding: 1.8667rem 8.24rem 0.6933rem 8.0533rem;
+  font-size: 0.6667rem;
+}
+.top_content .nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.top_content .nav li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  width: 33.33333333%;
+  margin-top: 1.1733rem;
+  cursor: pointer;
+}
+.top_content .nav li:nth-child(-n + 3) {
+  margin-bottom: 1.8667rem;
+}
+.top_content .nav img {
+  width: 3.7067rem;
+}
+.top_content .nav span {
+  font-size: 0.6667rem;
+}
+.top_content .go {
+  width: 19.2533rem;
+  height: 4.0533rem;
+  margin-top: 1.6rem;
+  margin: 1.6rem 0.2667rem 0 0.48rem;
+}
+.top_content .go img {
+  width: 19.2533rem;
+  height: 4.0533rem;
+  cursor: pointer;
+}
+.job-content {
+  height: 13.3333rem;
+  margin: 0.2667rem 0;
+  background-color: white;
+  padding: 1.0667rem 0.64rem 0 0.5867rem;
+}
+.job-content .content_hd {
+  display: flex;
+  justify-content: space-between;
+  height: 1.0133rem;
+  line-height: 1.0133rem;
+}
+.job-content .content_hd h4 {
+  margin: 0;
+  font-size: 0.7467rem;
+  font-weight: normal;
+  color: #333333;
+}
+.job-content .content_hd h4 img {
+  display: inline-block;
+  width: 1.0133rem;
+  height: 1.0133rem;
+  vertical-align: middle;
+  margin-right: 0.1333rem;
+}
+.job-content .content_hd .more {
+  text-decoration: none;
+  font-size: 0.5867rem;
+  color: #999;
+}
+.focus {
+  position: relative;
+}
+.focus .swiper-container {
+  width: 14.4rem;
+  height: 100%;
+}
+.focus .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  transition: 300ms;
+  transform: scale(0.8);
+  opacity: 0.3;
+}
+.focus .swiper-slide a img {
+  width: 9.0133rem;
+  height: 10.0267rem;
+}
+.focus .swiper-slide p {
+  width: 9.0133rem;
+  font-size: 0.6667rem;
+  color: #333;
+  margin-top: 0.64rem;
+}
+.focus .swiper-slide-active,
+.focus .swiper-slide-duplicate-active {
+  transform: scale(1);
+  z-index: 999;
+  opacity: 1;
+}
+.study-focus .swiper {
+  width: 100%;
+  height: 100%;
+}
+.study-focus .mySwiper {
+  padding: 0.2667rem;
+}
+.study-focus .swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  width: 7.3333rem;
+  height: 9.0667rem;
+  border-radius: 0.2667rem;
+  box-shadow: 0 0 0.2667rem rgba(0, 0, 0, 0.1);
+}
+.study-focus .swiper-slide a img {
+  width: 7.3333rem;
+}
+.study-focus .swiper-slide h5 {
+  font-size: 0.6667rem;
+  font-weight: normal;
+  margin: 0.0533rem 0;
+}
+.study-focus .swiper-slide p {
+  font-size: 0.6933rem;
+  color: #ff4400;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 2.9333rem;
+  width: 100%;
+  display: flex;
+  z-index: 99999;
+  padding: 0.5067rem;
+  border-top: #ccc;
+  background-color: white;
+}
+.footer a {
+  text-decoration: none;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer a img {
+  width: 1.04rem;
+  height: 1.0933rem;
+}
+.footer a p {
+  font-size: 0.5867rem;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="top_content">
+    <!-- 头部 -->
+    <header class="header">黑马面面</header>
+
+    <!-- 导航 -->
+    <ul class="nav">
+        <li><img src="icons/组 24@2x.png" alt=""><span>技术面试</span></li>
+        <li><img src="icons/组 24@2x.png" alt=""><span>技术面试</span></li>
+        <li><img src="icons/组 24@2x.png" alt=""><span>技术面试</span></li>
+        <li><img src="icons/组 24@2x.png" alt=""><span>技术面试</span></li>
+        <li><img src="icons/组 24@2x.png" alt=""><span>技术面试</span></li>
+        <li><img src="icons/组 24@2x.png" alt=""><span>技术面试</span></li>
+    </ul>
+    
+    <!-- go图 -->
+    <div class="go">
+        <img src="images/组 21@2x.png" alt="">
+    </div>
+    </section>
+
+    <div class="job-content">
+        <!-- 头部 -->
+        <div class="content_hd">
+            <h4><img src="icons/新手指导@2x.png" alt="">就业指导</h4>
+            <a href="#" class="more">更多>></a>
+        </div>
+
+        <!-- 轮播图 -->
+        <div class="focus">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#"><img src="images/pic.png" alt=""></a>
+                        <p>老师教教你应对面试</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="images/pic.png" alt=""></a>
+                        <p>老师教教你应对面试</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="images/pic.png" alt=""></a>
+                        <p>老师教教你应对面试</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="job-content">
+        <!-- 头部 -->
+        <div class="content_hd">
+            <h4><img src="icons/充电保@2x.png" alt="">充电学习</h4>
+            <a href="#" class="more">更多>></a>
+        </div>
+
+        <!-- 学习模块轮播图 -->
+        <div class="study-focus">
+            <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#"><img src="images/pic1.png" alt=""></a>
+                    <h5>学地道英语，告别中式英语</h5>
+                    <p>999+人学习</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"><img src="images/pic1.png" alt=""></a>
+                    <h5>学地道英语，告别中式英语</h5>
+                    <p>999+人学习</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"><img src="images/pic1.png" alt=""></a>
+                    <h5>学地道英语，告别中式英语</h5>
+                    <p>999+人学习</p>
+                  </div>
+                </div>
+        
+              </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <a href="#"><img src="icons/首页@2x.png" alt=""><p>首页</p></a>
+        <a href="#"><img src="icons/面试评价@2x.png" alt=""><p>模拟面试</p></a>
+        <a href="#"><img src="icons/专项检查@2x.png" alt=""><p>技术面试</p></a>
+        <a href="#"><img src="icons/个人中心@2x.png" alt=""><p>我的首页</p></a>
+    </footer>
+
+
+    <script src="js/flexible.js"></script>
+    <script src="js/swiper.min.js"></script>
+    
+    <script>
+        // 立即执行函数
+        (function () {
+            var swiper = new Swiper('.swiper-container', {
+                slidesPerView: 2.3,
+                spaceBetween: 30,
+	            centeredSlides: true,
+	            loop: true,
+            });
+        })();
+
+        // 第二个轮播图立即执行函数
+        (function () {
+            // 如果有多个轮播图要修改一下swiper-container
+            var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 2.2,
+            spaceBetween: 20,
+      });
+        })();
+      </script>
+</body>
+</html>
